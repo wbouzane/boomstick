@@ -30,17 +30,21 @@ img {
 }
 
 #wrap {
-#    width:1000px;
-#    margin:0 auto;
+    width:1000px;
+    margin:0 auto;
 }
 
 #header {
-#    background:#ddd;
+    width: 1000px;
+    position:fixed;
+    background-color: #FFFFFF;
+    top:0px;
 }
 
-#nav {
-#    background:#c99;
-}
+#nav a:link { color:#000000; }
+#nav a:visited { color:#000000; }
+#nav a:hover { color:#FF9900; }
+#nav a:active { color:#000000; }
 
 #nav ul {
     margin:0;
@@ -55,8 +59,8 @@ img {
 }
 
 #main {
-    float:right;
-    width:800px;
+    margin-top: 140px;
+    float:inherit;
 }
 
 #sidebar {
